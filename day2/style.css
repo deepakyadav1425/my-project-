@@ -1,0 +1,28 @@
+
+
+
+section{
+    height: 30vh;
+}
+
+#day1{
+    background-color: rgb(103, 173, 234);
+}
+#day2{
+    background-color: rgb(36, 252, 130);
+}
+#day3{
+    background-color: rgb(199, 103, 234);
+}
+#day4{
+    background-color: rgb(232, 234, 103);
+}
+#day5{
+    background-color: rgb(234, 116, 103);
+}
+#day6{
+    background-color: rgb(255, 103, 240);
+}
+#day7{
+    background-color: rgb(218, 202, 216);
+}
