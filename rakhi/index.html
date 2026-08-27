@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body {
+
+            height: 100vh;
+
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .mole-box {
+            width: 360px;
+            padding: 15px;
+            background: #fff;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+            transition: 0.3s ease;
+        }
+
+        .mole-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .mole-box img {
+            width: 100%;
+            /* height: 180px; */
+            object-fit: cover;
+            border-radius: 12px;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .mole-box a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background: #e91e63;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.3s ease;
+        }
+
+        .mole-box a:hover {
+            background: #c2185b;
+        }
+
+
+
+        .move {
+            text-align: center;
+            font-size: 25px;
+            margin: 10px 0;
+            animation: moveUpDown 1s ease-in-out infinite;
+        }
+
+        @keyframes moveUpDown {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(10px);
+            }
+        }
+
+        /* .mole-box a {
+            color: #e91e63;
+            background-color: pink;
+            padding: 4px 40px;
+            border: 5px solid black;
+        }
+
+        .move{
+        margin-top: -15px;
+        } */
+    </style>
+</head>
+
+<body>
+
+
+    <div class="mole-box">
+        <img src="rakhi.png">
+        <a href="gallery.html">Old Memory</a>
+        <p class="move">👆👆👆👆👆</p>
+    </div>
+
+
+
+</body>
+
+</html>
