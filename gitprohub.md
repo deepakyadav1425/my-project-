@@ -1,21 +1,20 @@
-# GitProHub
+# My project
 
 ## Project
 
-title: deepak
-description: Indian technology community and creative team building hackathons, projects, events, and developer tools.
-category: Technology Community
+title: My project
+description: 
 status: Active
-image: https://haproven.netlify.app/assets/images/logo.png
+image: 
 
 ## Links
 
-live: https://haproven.netlify.app/
+live: https://tyszqp.csb.app/
 demo:
 documentation:
 
 ## Discover
 
-tags: haproven, technology, community, hackathons, projects, events, developer-tools, open-source
+tags: 
 featured: true
 open_source: true
