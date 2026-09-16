@@ -1,20 +1,21 @@
-# My project
+# My-Project
 
 ## Project
 
-title: My project
-description: 
+title: My Project
+description: A collection of practice programs and coding exercises created while learning Python, programming, and software development.
+category: Developer Learning & Practice
 status: Active
-image: 
+image:
 
 ## Links
 
-live: https://tyszqp.csb.app/
+live:
 demo:
 documentation:
 
 ## Discover
 
-tags: 
-featured: true
+tags: python, programming, coding-practice, learning, exercises, developer, haproven, open-source
+featured: false
 open_source: true
